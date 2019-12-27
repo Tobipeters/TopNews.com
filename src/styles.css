@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url( 'https://gamespot1.cbsistatic.com/uploads/original/536/5360430/2506259-bridge1.png');
+    /* background: #000; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    /* -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);	 */
+
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-size: 100% 1000px;
+    }
+}

@@ -1,0 +1,24 @@
+.mynavbar{
+    padding: 10px 30px;
+}
+a{
+    color: #fff;
+}
+.nav-li{
+    margin-right: 30px;
+}
+.nav-li:last-child{
+    margin-right: 0px;
+}
+.name-txt{
+    font-size: 2.0em;
+}
+.desc-txt{
+    font-size: 1.67em;
+}
+
+@media screen and (max-width:500px){
+    .name-txt, .desc-txt{
+        font-size: 1.2em;
+    }
+}
